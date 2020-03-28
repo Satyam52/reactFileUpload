@@ -1,0 +1,23 @@
+{
+  "name": "react-file-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client":"npm start --prefix client",
+    "server":"nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+
+  },
+  "author": "Abhishek Kumar Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
