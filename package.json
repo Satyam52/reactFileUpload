@@ -5,10 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "client":"npm start --prefix client",
-    "server":"nodemon server.js",
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
     "dev": "concurrently \"npm run server\" \"npm run client\""
-
   },
   "author": "Abhishek Kumar Gupta",
   "license": "MIT",
